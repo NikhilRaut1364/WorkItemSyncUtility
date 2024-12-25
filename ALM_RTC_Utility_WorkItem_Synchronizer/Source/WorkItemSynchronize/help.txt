@@ -1,0 +1,34 @@
+Prerequisite:
+Ensure that the work item query for the selected project area contains only one work item type.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Steps to Use the Utility:
+Step 1: Login
+	1. Select Server: Choose the server you want to connect to.
+	2. Enter Username: Input your username.
+	3. Enter Password: Input your password.
+	4. Click on Login: Press the login button to authenticate.
+
+Once the login is complete, all project areas assigned to the logged-in user will populate in the list.
+
+Step 2: Select Project Area
+	1. Select Project Area:
+		- The user can select only one project area.
+		- Once a project area is selected, all the work item queries (Personal/Shared) will appear in the Work Item Query list.
+
+Step 3: Select Work Item Query
+	1. Select Work Item Query:
+		- The user can select multiple work item queries.
+		- Ensure that each query contains only one work item type.
+		
+Step 4: Map Project Area and Work Item Query
+	1. Click on Map:
+		- After selecting the project area and work item query, click on the map button.
+		- The mapping table will display the selected project area and work item query.
+
+Step 5: Generate Report
+	1. Select Output Path:
+		- Choose the output path for the report.
+	2. Click on Proceed:
+		If you do not have permission or if some preconditions/follow-ups block the process, the utility will prompt: "Workitem Sync Failed! Please check logs."
